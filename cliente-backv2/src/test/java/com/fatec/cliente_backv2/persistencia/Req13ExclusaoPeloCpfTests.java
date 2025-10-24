@@ -28,7 +28,6 @@ class Req13ExclusaoPeloCpfTests {
 	}
 	@Test
 	void ct01_quando_cpf_cadastrado_exclui_cliente_com_sucesso() {
-		//Dado que as informacoes de cliente estao cadastradas
 		setup();
 		Optional<Cliente> c = clienteRepository.findByCpf("80983098000");
 		assertTrue (c.isPresent());

@@ -18,7 +18,6 @@ class Req09CadastrarClienteTests {
 	private Cliente cliente;
 	@Autowired
 	private ClienteRepository clienteRepository;
-	// Injete o TestEntityManager
 	@Autowired
 	private TestEntityManager entityManager;
 	
